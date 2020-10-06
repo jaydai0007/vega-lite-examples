@@ -3,8 +3,7 @@
   "data": {
     "url": "https://kadeksatriadi.github.io/vega-lite-examples/examples/seattle-weather.csv"
   },
-  "height": 150,
-  "width": 500,
+  "width": "container",
   "transform": [
     {
       "calculate": "datum.temp_max - datum.temp_min",
