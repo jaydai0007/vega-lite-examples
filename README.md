@@ -11,7 +11,7 @@ HTML: https://github.com/KadekSatriadi/vega-lite-examples/blob/main/examples/nor
 Vega-lite JSON: https://github.com/KadekSatriadi/vega-lite-examples/blob/main/examples/normalised-stacked-bars.json
 
 ## Multiple Visualisations
-A simple demo of multiple vega-lite visualisation on a single web-page without styling.
+A simple demo of multiple vega-lite visualisations on a single web-page (without styling).
 
 Preview: https://kadeksatriadi.github.io/vega-lite-examples/examples/multiple_visualisations.html
 
@@ -21,12 +21,12 @@ Vega-lite JSON (stacked bar chart): see first example.
 
 Vega-lite JSON (line chart): https://github.com/KadekSatriadi/vega-lite-examples/blob/main/examples/line-chart.json
 
-## Styling Web Page
+## Stylised Page
 The extended version of the multiple visualisations demo with following improvements:
-- Page layout using Pure.css.
-- Typography using Google Font.
-- Responsive vega-lite charts size using "width": "container" property.
-- Charts' action buttons are hidden.
+- page layout using Pure.css,
+- typography using Google Font,
+- responsive vega-lite charts size using <code>"width": "container"</code> property,
+- charts' action buttons are hidden with <code>{"actions": false}</code> configuration on <code>vegaEmbed</code> function. 
 
 Preview: https://kadeksatriadi.github.io/vega-lite-examples/examples/using_pure_css.html
 
