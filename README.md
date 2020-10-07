@@ -36,3 +36,5 @@ Vega-lite JSON (responsive stacked bar chart): https://github.com/KadekSatriadi/
 
 Vega-lite JSON (responsive line chart): https://github.com/KadekSatriadi/vega-lite-examples/blob/main/examples/line-chart-responsive.json
 
+Note: This is a demonstration on how you can stylise page and is not an example of perfect visualisation page. 
+
