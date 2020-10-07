@@ -25,7 +25,7 @@ Vega-lite JSON (line chart): https://github.com/KadekSatriadi/vega-lite-examples
 The extended version of the multiple visualisations demo with following improvements:
 - page layout using Pure.css,
 - typography using Google Font,
-- responsive vega-lite charts size using <code>"width": "container"</code> property,
+- responsive vega-lite charts size using <code>"width": "container"</code> property on vega-lite JSON,
 - charts' action buttons are hidden with <code>{"actions": false}</code> configuration on <code>vegaEmbed</code> function. 
 
 Preview: https://kadeksatriadi.github.io/vega-lite-examples/examples/using_pure_css.html
