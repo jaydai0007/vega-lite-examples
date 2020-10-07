@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data": {
+      "url": "https://kadeksatriadi.github.io/vega-lite-examples/examples/seattle-weather.csv"
+    },
+    "width": "container",
+    "transform": [
+      {
+        "calculate": "datum.temp_max - datum.temp_min",
+        "as": "temp_range"
+      }
+    ],
+    "mark": {
+      "type": "line",
+      "interpolate": "monotone"
+    },
+    "encoding": {
+      "x": {
+        "field": "date",
+        "timeUnit": "month"
+      },
+      "y": {
+        "field": "temp_range",
+        "aggregate": "mean"
+      },
+      "color": {
+        "timeUnit": "year",
+        "type": "nominal",
+        "field": "date",
+        "title": "Year"
+      }
+    },
+    "config": {}
+  }
+  
