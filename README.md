@@ -26,7 +26,7 @@ The extended version of the multiple visualisations demo with following improvem
 - page layout using Pure.css,
 - typography using Google Font,
 - responsive vega-lite charts size using <code>"width": "container"</code> property on vega-lite JSON,
-- charts' action buttons are hidden with <code>{"actions": false}</code> configuration on <code>vegaEmbed</code> function. 
+- charts' action buttons are hidden with <code>{"actions": false}</code> parameter on <code>vegaEmbed</code> function. 
 
 Preview: https://kadeksatriadi.github.io/vega-lite-examples/examples/using_pure_css.html
 
