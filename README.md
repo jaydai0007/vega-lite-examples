@@ -1,5 +1,5 @@
 # vega-lite-examples
-This repository contains vega-lite example for FIT3179.
+This repository contains vega-lite examples for FIT3179.
 
 ## Simple stacked bar chart 
 A simple demo of a normalised stacked bar chart. 
