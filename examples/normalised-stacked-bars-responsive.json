@@ -40,10 +40,7 @@
             "#9467bd"
           ]
         },
-        "title": "Weather Type", 
-        "legend": {
-          "orient": "left"
-        }
+        "title": "Weather Type"        
       }
     },
     "config": {}
