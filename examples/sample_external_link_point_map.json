@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": 500,
+    "height": 300,
+    "data": {
+      "url": "https://dl.dropbox.com/s/4qybg0qxhak1ldy/Crashes_Last_Five_Years.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "mark":{
+      "type":"circle",
+      "fillOpacity":0.5,
+      "size":10
+    },
+    "encoding": {
+      "facet": {
+        "field": "ACCIDENT_DATE",
+        "type": "ordinal",
+        "columns":2,
+        "timeUnit": "year"
+      },
+       "longitude": {
+        "field": "LONGITUDE",
+        "type": "quantitative"
+      },
+      "latitude": {
+        "field": "LATITUDE",
+        "type": "quantitative"
+      }, 
+      "color":{
+        "field": "DEG_URBAN_NAME",
+        "type":"nominal",
+        "legend": {
+            "orient": "left"
+          }
+      }
+    }
+  }
