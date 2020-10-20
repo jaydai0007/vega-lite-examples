@@ -57,8 +57,6 @@ Vega-lite Editor: [link](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgx
 
 **Note: It takes a while to load!**
 
-## Maps Examples from Homework Week 9
+## Examples from Homework Week 9 & 10
 
 Github repository: https://github.com/KaneSec/vega_lite
-
-
